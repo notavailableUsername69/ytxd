@@ -1,0 +1,61 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #1db954;
+  margin: 1;
+  padding: 1;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 20px;
+  color:#ffffff;
+}
+
+#music-player {
+  width: 300px;
+  margin: 0 auto;
+  background-color: #1ed760;
+  padding: 20px;
+  box-shadow: 0 2px 4px rgba(244, 240, 240, 0.2);
+}
+
+#playlist {
+  list-style: none;
+  padding: 1;
+  margin: 1;
+}
+
+#playlist li {
+  cursor: pointer;
+  padding: 5px;
+}
+
+#playlist li:hover {
+  background-color: #1ed760;
+}
+
+#playlist li.active {
+  background-color: #e0e0e0;
+}
+
+#audio-player {
+  width: 100%;
+  margin-top: 10px;
+}
+/* Add responsive styles for smaller screens */
+@media (max-width: 500px) {
+  body {
+    font-size: 14px;
+  }
+  #game {
+    margin-top: 20px;
+  }
+  .row {
+    margin-bottom: 5px;
+  }
+  .cell {
+    width: 60px;
+    height: 60px;
+    font-size: 30px;
+  }
+}
